@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    width: 180px;
+    height: 60px;
+    margin-left: 50px;
+}
+.navbar{
+ font-size: 16px;
+ font-weight: 500;
+ top: 0;
+ left: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active
+.navbar i.active{
+    color: red;
+}
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+#bar{
+   font-size: 1.5rem;
+   padding: 7px;
+   cursor: pointer;
+   font-weight: 500;
+   transition: 0.3s ease;
+   color: black;
+}
+#bar:hover,
+#bar.active{
+    color: rgb(247, 248, 248);
+}
+#navbarSupportedContent>ul{
+    margin: 1rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+/* #navbarSupportedContent>ul>li:nth-child(n)>a{
+    padding: 10px 0;
+} */
+/*mobail nav*/
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;
+}
+
+#home{
+    background-image: url("https://s2.best-wallpaper.net/wallpaper/5120x2880/1904/Fashion-girl-hat-makeup-red-lip-glasses-hands_5120x2880.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    margin-bottom: 60px;
+}
+span{
+    color: hsl(54, 95%, 50%);
+}
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    outline: none;
+    border: none;
+}
+button:hover {
+    background-color: crimson;
+}
+
+/* section 3.......... */
+.img-fluid{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#new .one .details{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+#new .one:hover .details{
+    cursor: pointer;
+    background-color: rgba(245, 178, 178, 0.7);
+}
+#new .one .details button{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a2a2a;
+    background: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #2a2a2a;
+    padding: 2.5px;
+    transform: translateY(70px);
+    transition: 0.3s ease;
+}
+#new .one .details button:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+#new .one:nth-child(1) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    align-items: flex-start;
+}
+#new .one:nth-child(2) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#new .one:nth-child(3) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: end;
+    align-items: flex-end;
+}
+
+/* product.................*/
+hr{
+    width: 30px;
+    height: 2px;
+    background-color: crimson;
+}
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.product img{
+    transition: 0.3s all;
+}
+.product:hover img{
+    opacity: 0.7;
+}
+.product .buy-btn{
+    background: crimson;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+.product:hover .buy-btn{
+    transform: translateY(0);
+    opacity: 1;
+}
+.star{
+    padding: 10px 0;
+}
+.star i{
+     font-size: 0.8rem;
+     color: goldenrod;
+}
+
+/* banner2..........*/
+#banner{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/292/238/409/autumn-girl-portrait-bogdana-wallpaper-preview.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#banner h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(3, 5, 119);
+}
+#banner h1{
+   color:ivory;
+   font-weight: 600;
+   font-size: 50px;
+   word-spacing: 1px;
+   font-family: 'Times New Roman', Times, serif;
+   padding-bottom: 20px;
+   font-style: italic;
+}
+#banner button{
+    background-image: linear-gradient(45deg, #855df5,rgb(10, 230, 230), hsl(202, 86%, 52%));
+}
+
+.img-fluid{
+    height: 360px;
+}
+.img-hill{
+    height: 140px;
+}
